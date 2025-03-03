@@ -7,7 +7,7 @@ import {
     NavigationMenuContent,
     NavigationMenuLink
 } from "@radix-ui/react-navigation-menu";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
     return (
