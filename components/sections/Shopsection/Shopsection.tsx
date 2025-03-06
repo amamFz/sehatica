@@ -46,7 +46,7 @@ export default function Shopsection() {
         <Carousel className="w-[30%]">
             <CarouselContent>
                 {products.map((data, key) => (
-                  <CarouselItem key={key} className="px-5">
+                  <CarouselItem key={key}>
                     <CardShop data={data}/>
                   </CarouselItem>
                 ))}
