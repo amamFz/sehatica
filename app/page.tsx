@@ -6,10 +6,10 @@ import Shopsection from "@/components/sections/Shopsection/Shopsection";
 export default function Home() {
   return (
     <>
-    <Homesection />
-    <Categorysection />
-    <Featuredsection />
-    <Shopsection />
+      <Homesection />
+      <Categorysection />
+      <Featuredsection />
+      <Shopsection />
     </>
   );
 }
