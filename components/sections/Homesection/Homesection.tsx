@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-export default function Homepage() {
+export default function Homesection() {
     return (
         <div className="bg-blue-600 text-white">
             <div className="container mx-auto px-4 py-12 max-w-6xl">
