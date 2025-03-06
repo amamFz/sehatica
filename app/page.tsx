@@ -1,11 +1,13 @@
 import Homesection from "@/components/sections/Homesection/Homesection";
 import Categorysection from "@/components/sections/Categorysection/Categorysection";
+import Featuredsection from "@/components/sections/Featuredsection/Featuredsection";
 
 export default function Home() {
   return (
     <>
     <Homesection />
     <Categorysection />
+    <Featuredsection />
     </>
   );
 }
