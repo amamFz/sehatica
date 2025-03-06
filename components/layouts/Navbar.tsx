@@ -17,10 +17,10 @@ const Navbar = () => {
                 <NavigationMenu className="hidden lg:flex">
                     <NavigationMenuList className="flex gap-3">
                         <NavigationMenuItem className="bg-transparent px-5 py-2 rounded-md transition-all duration-200 hover:bg-primary-foreground/20">
-                            <a href="#" className="text-secondary font-medium">Home</a>
+                            <a href="/" className="text-secondary font-medium">Home</a>
                         </NavigationMenuItem>
                         <NavigationMenuItem className="bg-transparent px-5 py-2 rounded-md transition-all duration-200 hover:bg-primary-foreground/20">
-                            <a href="#" className="text-secondary font-medium">About</a>
+                            <a href="#categories" className="text-secondary font-medium">Categories</a>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <NavigationMenuTrigger className="bg-transparent text-secondary font-medium px-5 py-2 rounded-md transition-all duration-200 hover:bg-primary-foreground/20">
