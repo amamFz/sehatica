@@ -6,15 +6,35 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Button } from "@/components/ui/button";
-import { ArticleType } from "@/types/type";
-import CardArticles from "@/components/CardArticles/CardArticles";
+import { ShopToolsType } from "@/types/type";
+import CardShop from "@/components/CardShop/CardShop";
 
-const data: ArticleType[] = [
-    {
-        title: 'tes',
-        description: 'tes',
-        image: 'tes',
-    }
+const products: ShopToolsType[] = [
+  {
+    name: 'tools',
+    description: 'description of the tools card shop',
+    image: '/og-fb-logo-en.webp'
+  },
+  {
+    name: 'tools',
+    description: 'description of the tools card shop',
+    image: '/og-fb-logo-en.webp'
+  },
+  {
+    name: 'tools',
+    description: 'description of the tools card shop',
+    image: '/og-fb-logo-en.webp'
+  },
+  {
+    name: 'tools',
+    description: 'description of the tools card shop',
+    image: '/og-fb-logo-en.webp'
+  },
+  {
+    name: 'tools',
+    description: 'description of the tools card shop',
+    image: '/og-fb-logo-en.webp'
+  },
 ]
 
 export default function Shopsection() {
@@ -25,7 +45,11 @@ export default function Shopsection() {
         <div className="flex justify-center">
         <Carousel className="w-[30%]">
             <CarouselContent>
-                
+                {products.map((data, key) => (
+                  <CarouselItem key={key} className="px-5">
+                    <CardShop data={data}/>
+                  </CarouselItem>
+                ))}
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
