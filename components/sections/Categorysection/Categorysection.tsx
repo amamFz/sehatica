@@ -1,7 +1,7 @@
 import CardArticles from "@/components/CardArticles/CardArticles";
-import { ArticleProps } from "@/types/type";
+import { ArticleType } from "@/types/type";
 
-const articleDatas: ArticleProps[] =[
+const articleDatas: ArticleType[] =[
     {
         title: "MacBook Pro M3 SSD Upgrade", 
         description: "Upgrade your MacBook Pro M3's storage with this step-by-step guide.", 
